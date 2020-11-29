@@ -1,0 +1,6 @@
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\EjderyaFramework.Entities.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\EjderyaFramework.Entities.pdb
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.csprojAssemblyReference.cache
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.csproj.CoreCompileInputs.cache
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.pdb

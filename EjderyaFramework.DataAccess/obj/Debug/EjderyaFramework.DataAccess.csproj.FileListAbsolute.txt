@@ -1,0 +1,5 @@
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess\bin\Debug\EjderyaFramework.DataAccess.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess\bin\Debug\EjderyaFramework.DataAccess.pdb
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess\obj\Debug\EjderyaFramework.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess\obj\Debug\EjderyaFramework.DataAccess.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess\obj\Debug\EjderyaFramework.DataAccess.pdb

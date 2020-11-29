@@ -1,0 +1,14 @@
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\EjderyaFramework.DataAccess.Tests.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\EjderyaFramework.DataAccess.Tests.pdb
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\obj\Debug\EjderyaFramework.DataAccess.Tests.csprojAssemblyReference.cache
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\obj\Debug\EjderyaFramework.DataAccess.Tests.csproj.CoreCompileInputs.cache
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\obj\Debug\EjderyaFramework.DataAccess.Tests.csproj.CopyComplete
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\obj\Debug\EjderyaFramework.DataAccess.Tests.dll
+C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.DataAccess.Tests\obj\Debug\EjderyaFramework.DataAccess.Tests.pdb
