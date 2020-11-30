@@ -41,11 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IProductService.cs" />
+    <Compile Include="Concrete\Manager\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <ProjectReference Include="..\EjderyaFramework.Core\EjderyaFramework.Core.csproj">
+      <Project>{0A34D99A-51A8-422C-9021-F73F2617AE64}</Project>
+      <Name>EjderyaFramework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EjderyaFramework.DataAccess\EjderyaFramework.DataAccess.csproj">
+      <Project>{06e2e336-6354-453a-9b7a-fb5ba72f46be}</Project>
+      <Name>EjderyaFramework.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EjderyaFramework.Entities\EjderyaFramework.Entities.csproj">
+      <Project>{9054614c-6578-4c55-a521-297b720941ad}</Project>
+      <Name>EjderyaFramework.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

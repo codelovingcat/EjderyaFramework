@@ -1,5 +1,4 @@
 ﻿using EjderyaFramework.Core.DataAccess;
-using EjderyaFramework.Entities.ComplexTypes;
 using EjderyaFramework.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace EjderyaFramework.DataAccess.Abstract
 {
-    public interface IProductDal : IEntityRepository<Product>
+    public interface ICategoryDal:IEntityRepository<Category>
     {
-        List<ProductDetail> GetProductDetails();
     }
 }
