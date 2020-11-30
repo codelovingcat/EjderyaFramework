@@ -4,3 +4,9 @@ C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business\obj\Debug
 C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.csproj.CoreCompileInputs.cache
 C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.dll
 C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.pdb
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\EjderyaFramework.Business.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\EjderyaFramework.Business.pdb
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.csprojAssemblyReference.cache
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.csproj.CoreCompileInputs.cache
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.pdb

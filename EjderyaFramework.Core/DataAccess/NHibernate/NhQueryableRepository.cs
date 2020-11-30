@@ -9,21 +9,19 @@ namespace EjderyaFramework.Core.DataAccess.NHibernate
 {
     public class NhQueryableRepository<T> : IQueryableRepository<T> where T : class, IEntity, new()
     {
-        NHiberniteHelper _nHiberniteHelper;
+        private NHibernateHelper _nHibernateHelper;
         private IQueryable<T> _entities;
-        public NhQueryableRepository(NHiberniteHelper nHiberniteHelper)
+
+        public NhQueryableRepository(NHibernateHelper nHibernateHelper)
         {
-            _nHiberniteHelper = nHiberniteHelper;
+            _nHibernateHelper = nHibernateHelper;
         }
+
         public IQueryable<T> Table => this.Entities;
 
-        protected virtual IQueryable<T> Entities
+        public virtual IQueryable<T> Entities
         {
-            get
-            {
-                return _entities ?? (_entities = _nHiberniteHelper.Set<T>());
-
-            }
+            get { return _entities ?? (_entities = _nHibernateHelper.OpenSession().Query<T>()); }
         }
     }
 }

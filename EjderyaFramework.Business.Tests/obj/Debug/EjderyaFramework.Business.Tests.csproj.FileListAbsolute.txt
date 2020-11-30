@@ -11,3 +11,17 @@ C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business.Tests\obj
 C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.csproj.CopyComplete
 C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.dll
 C:\Users\urems\source\repos\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.pdb
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\EjderyaFramework.Business.Tests.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\EjderyaFramework.Business.Tests.pdb
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.csprojAssemblyReference.cache
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.csproj.CoreCompileInputs.cache
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.csproj.CopyComplete
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.pdb
