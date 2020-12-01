@@ -52,3 +52,7 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Data
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\FluentNHibernate.dll
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\FluentNHibernate.pdb
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\FluentNHibernate.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\FluentValidation.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\PostSharp.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\FluentValidation.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\PostSharp.xml

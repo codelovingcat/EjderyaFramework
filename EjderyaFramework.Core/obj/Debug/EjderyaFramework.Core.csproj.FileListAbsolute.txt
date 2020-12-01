@@ -26,3 +26,9 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\obj\Debug\EjderyaFramework.Core.csproj.CopyComplete
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\obj\Debug\EjderyaFramework.Core.dll
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\obj\Debug\EjderyaFramework.Core.pdb
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\bin\Debug\FluentValidation.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\bin\Debug\PostSharp.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\bin\Debug\FluentValidation.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\bin\Debug\PostSharp.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\bin\Debug\EjderyaFramework.Core.pssym
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Core\obj\Debug\EjderyaFramework.Core.dll.postsharp

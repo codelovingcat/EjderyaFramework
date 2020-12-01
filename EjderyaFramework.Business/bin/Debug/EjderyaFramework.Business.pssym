@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="28" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect">
+    <Instance Declaration="#2=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Add(EjderyaFramework.Entities.Concrete.Product)" Id="d7bab030efb71085">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Update(EjderyaFramework.Entities.Concrete.Product)" Id="d7bab030372180a1">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#5=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6=2" Description="#7=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#8=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
+  <Annotation Target="#9=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
+  <Annotation Target="#10=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
+</Symbols>

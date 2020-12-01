@@ -26,3 +26,7 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Enti
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.csproj.CopyComplete
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.dll
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\obj\Debug\EjderyaFramework.Entities.pdb
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\FluentValidation.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\PostSharp.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\FluentValidation.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\PostSharp.xml
