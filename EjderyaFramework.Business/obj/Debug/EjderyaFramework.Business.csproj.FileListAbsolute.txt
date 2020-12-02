@@ -40,3 +40,8 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Busi
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\EjderyaFramework.Business.pssym
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.csproj.CopyComplete
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\EjderyaFramework.Business.dll.postsharp
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\EjderyaFramework.Business.dll.config
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\Ninject.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\Ninject.xml

@@ -1,19 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="28" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="42" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect">
-    <Instance Declaration="#2=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Add(EjderyaFramework.Entities.Concrete.Product)" Id="d7bab030efb71085">
+    <Instance Declaration="#2=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Add(EjderyaFramework.Entities.Concrete.Product)" Id="d7bab0307697bc75">
       <Target>
-        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
       </Target>
     </Instance>
-    <Instance Declaration="#4=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Update(EjderyaFramework.Entities.Concrete.Product)" Id="d7bab030372180a1">
+    <Instance Declaration="#4=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Update(EjderyaFramework.Entities.Concrete.Product)" Id="d7bab030e6ab16e5">
       <Target>
-        <JoinPoint Advising="#1" Description="#3" />
+        <JoinPoint Advising="#1" Description="#3" Ordinal="3" />
       </Target>
     </Instance>
   </Class>
-  <Annotation Target="#5=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6=2" Description="#7=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#8=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
-  <Annotation Target="#9=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
-  <Annotation Target="#10=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
+  <Class Class="#5=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheRemoveAspect">
+    <Instance Declaration="#2" Id="d7bab0303b853932">
+      <Target>
+        <JoinPoint Advising="#5" Description="#3" Ordinal="0" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#6=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect">
+    <Instance Declaration="#7=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::TransactionalOperation(EjderyaFramework.Entities.Concrete.Product, EjderyaFramework.Entities.Concrete.Product)" Id="d7bab030ee79276a">
+      <Target>
+        <JoinPoint Advising="#6" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#8=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheAspect">
+    <Instance Declaration="#9=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::GetAll()" Id="d7bab0305a5dde60">
+      <Target>
+        <JoinPoint Advising="#8" Description="#10=Intercepted by OnInvoke" Ordinal="2" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#11=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12=2" Description="#13=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#14=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#15=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#16=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#17=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnEntry([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#18=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheRemoveAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#19=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#20=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#21=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
 </Symbols>

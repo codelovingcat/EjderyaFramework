@@ -64,3 +64,6 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Busi
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Iesi.Collections.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\EjderyaFramework.Business.Tests.pssym
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\obj\Debug\EjderyaFramework.Business.Tests.dll.postsharp
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Ninject.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\EjderyaFramework.Business.dll.config
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business.Tests\bin\Debug\Ninject.xml
