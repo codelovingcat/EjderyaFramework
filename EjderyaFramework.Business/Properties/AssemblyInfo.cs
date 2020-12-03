@@ -1,4 +1,12 @@
-﻿using System.Reflection;
+﻿using EjderyaFramework.Business.ValidationRules.FluentValidation;
+using EjderyaFramework.Core.Aspects.Pastsharp;
+using EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects;
+using EjderyaFramework.Core.Aspects.Pastsharp.ExceptionAspects;
+using EjderyaFramework.Core.Aspects.Pastsharp.LogAspects;
+using EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects;
+using EjderyaFramework.Core.CrossCuttingConcerns.Caching.Microsoft;
+using EjderyaFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -13,7 +21,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
+[assembly: LogAspect(typeof(FileLogger), AttributeTargetTypes = "EjderyaFramework.Business.Concrete.Manager.*")]
+[assembly: LogAspect(typeof(DatabaseLogger), AttributeTargetTypes = "EjderyaFramework.Business.Concrete.Manager.*")]
+[assembly: ExceptionLogAspect(typeof(DatabaseLogger), AttributeTargetTypes = "EjderyaFramework.Business.Concrete.Managers.*")]
+[assembly: PerformanceCounterAspect(AttributeTargetTypes = "EjderyaFramework.Business.Concrete.Managers.*")]
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.

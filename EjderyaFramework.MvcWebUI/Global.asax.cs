@@ -1,3 +1,5 @@
+using EjderyaFramework.Business.DependencyResolvers.Ninject;
+using EjderyaFramework.Core.Utilities.Mvc.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +15,8 @@ namespace EjderyaFramework.MvcWebUI
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(new BusinessModule()));
         }
+
     }
 }

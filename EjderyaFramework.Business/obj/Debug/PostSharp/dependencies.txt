@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.7.10\bin.Release\net472\PostSharp.Compiler.Engine.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\PostSharp\postsharp.config
