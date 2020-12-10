@@ -36,11 +36,20 @@ namespace EjderyaFramework.Business.Concrete.Manager
 
         [CacheAspect(typeof(MemoryCacheManager))]
         [PerformanceCounterAspect(2)]
-        [SecuredOperation(Roles = "Admin,Editor,Student")]
+        //[SecuredOperation(Roles = "Admin,Editor,Student")]
         public List<Product> GetAll()
         {
-            Thread.Sleep(3000);
-            return _productDal.GetList();
+            //Thread.Sleep(3000);
+            return _productDal.GetList().Select(p => new Product
+            {
+                CategoryId = p.CategoryId,
+                ProductId = p.ProductId,
+                ProductName = p.ProductName,
+                QuantityPerUnit = p.QuantityPerUnit,
+                UnitPrice = p.UnitPrice,
+                UnitsInStock = p.UnitsInStock
+
+            }).ToList();
         }
 
         public Product GetById(int id)
@@ -53,7 +62,7 @@ namespace EjderyaFramework.Business.Concrete.Manager
         {
             return _productDal.Update(product);
         }
-        
+
         [TransactionScopeAspect]
         [FluentValidationAspect(typeof(ProductValidatior))]
         public void TransactionalOperation(Product product1, Product product2)
