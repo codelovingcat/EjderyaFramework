@@ -24,6 +24,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EjderyaFramework.Wcf.Service", "EjderyaFramework.Wcf.Service\", "{B378A3A8-10B8-4FFD-853D-E9D326E812EA}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{3e0979e1-c1a4-4bd9-a984-407d079fd7f8}|EjderyaFramework.Business.dll;{0A34D99A-51A8-422C-9021-F73F2617AE64}|EjderyaFramework.Core.dll;{06E2E336-6354-453A-9B7A-FB5BA72F46BE}|EjderyaFramework.DataAccess.dll;{9054614C-6578-4C55-A521-297B720941AD}|EjderyaFramework.Entities.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52786"
 		Debug.AspNetCompiler.PhysicalPath = "EjderyaFramework.Wcf.Service\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52786\"

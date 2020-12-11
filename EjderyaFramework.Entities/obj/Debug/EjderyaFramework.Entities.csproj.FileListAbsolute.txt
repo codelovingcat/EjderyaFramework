@@ -47,3 +47,5 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Enti
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\System.Web.Razor.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\AutoMapper.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Entities\bin\Debug\AutoMapper.xml

@@ -122,3 +122,5 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.WebA
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.WebApi\bin\System.Web.Helpers.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.WebApi\bin\EntityFramework.SqlServer.dll
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.WebApi\bin\EntityFramework.SqlServer.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.WebApi\bin\AutoMapper.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.WebApi\bin\AutoMapper.xml

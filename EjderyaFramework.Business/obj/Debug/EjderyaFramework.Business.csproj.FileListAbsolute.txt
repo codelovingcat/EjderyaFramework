@@ -63,3 +63,5 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Busi
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\PostSharp\touch
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\PostSharp\dependencies.txt
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\obj\Debug\PostSharp\postsharp.app.config
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\AutoMapper.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Business\bin\Debug\AutoMapper.xml

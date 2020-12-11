@@ -17,15 +17,19 @@ using EjderyaFramework.Core.Aspects.Pastsharp.LogAspects;
 using EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects;
 using System.Threading;
 using EjderyaFramework.Core.Aspects.Pastsharp.AuthorizationAspects;
+using AutoMapper;
+using EjderyaFramework.Core.Utilities.Mappings;
 
 namespace EjderyaFramework.Business.Concrete.Manager
 {
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
-        public ProductManager(IProductDal productDal)
+        private readonly IMapper _mapper;
+        public ProductManager(IProductDal productDal, IMapper mapper)
         {
             _productDal = productDal;
+            _mapper = mapper;
         }
         [FluentValidationAspect(typeof(ProductValidatior))]
         [CacheRemoveAspect(typeof(MemoryCacheManager))]
@@ -36,21 +40,28 @@ namespace EjderyaFramework.Business.Concrete.Manager
 
         [CacheAspect(typeof(MemoryCacheManager))]
         [PerformanceCounterAspect(2)]
-        //[SecuredOperation(Roles = "Admin,Editor,Student")]
+        [SecuredOperation(Roles = "Admin,Editor,Student")]
         public List<Product> GetAll()
         {
             //Thread.Sleep(3000);
-            return _productDal.GetList().Select(p => new Product
-            {
-                CategoryId = p.CategoryId,
-                ProductId = p.ProductId,
-                ProductName = p.ProductName,
-                QuantityPerUnit = p.QuantityPerUnit,
-                UnitPrice = p.UnitPrice,
-                UnitsInStock = p.UnitsInStock
+            //return _productDal.GetList().Select(p => new Product
+            //{
+            //    CategoryId = p.CategoryId,
+            //    ProductId = p.ProductId,
+            //    ProductName = p.ProductName,
+            //    QuantityPerUnit = p.QuantityPerUnit,
+            //    UnitPrice = p.UnitPrice,
+            //    UnitsInStock = p.UnitsInStock
 
-            }).ToList();
+            //}).ToList();
+
+            //var product = MatToSameTypeLİst<Product>(_productDal.GetList());
+
+            //var product = AutoMapperHelper.MapToSameTypeList(_productDal.GetList());
+            var product =_mapper.Map<List<Product>>(_productDal.GetList());
+            return product;
         }
+
 
         public Product GetById(int id)
         {

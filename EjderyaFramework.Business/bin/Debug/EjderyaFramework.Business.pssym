@@ -1,105 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="58" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="6.7.10.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="76" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="6.7.10.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.LogAspects.LogAspect">
-    <Instance Declaration="#2=A:EjderyaFramework.Business" Id="d7bab030b6fc79d0">
+    <Instance Declaration="#2=A:EjderyaFramework.Business" Id="d7bab030b0684e4a">
       <Target Target="#3=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::GetAll()" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnEntry" Ordinal="6" />
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnEntry" Ordinal="7" />
       </Target>
       <Target Target="#5=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Add(EjderyaFramework.Entities.Concrete.Product)" LinesAvoided="2">
         <JoinPoint Advising="#1" Description="#4" Ordinal="2" />
       </Target>
       <Target Target="#6=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::Update(EjderyaFramework.Entities.Concrete.Product)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="10" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="11" />
       </Target>
       <Target Target="#7=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::TransactionalOperation(EjderyaFramework.Entities.Concrete.Product, EjderyaFramework.Entities.Concrete.Product)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="15" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="16" />
       </Target>
       <Target Target="#8=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.ProductManager::GetById(System.Int32)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="8" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="9" />
       </Target>
       <Target Target="#9=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.UserManager::GetByUserNameAndPassword(System.String, System.String)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="17" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="18" />
       </Target>
       <Target Target="#10=M:[EjderyaFramework.Business]EjderyaFramework.Business.Concrete.Manager.UserManager::GetUserRoles(EjderyaFramework.Entities.Concrete.User)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="19" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="20" />
       </Target>
     </Instance>
-    <Instance Declaration="#2" Id="d7bab030cb6d6135">
+    <Instance Declaration="#2" Id="d7bab0305c941aea">
       <Target Target="#3" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="7" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="8" />
       </Target>
       <Target Target="#5" LinesAvoided="2">
         <JoinPoint Advising="#1" Description="#4" Ordinal="3" />
       </Target>
       <Target Target="#6" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="12" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="13" />
       </Target>
       <Target Target="#7" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="16" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="17" />
       </Target>
       <Target Target="#8" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="9" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="10" />
       </Target>
       <Target Target="#9" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="18" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="19" />
       </Target>
       <Target Target="#10" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="20" />
+        <JoinPoint Advising="#1" Description="#4" Ordinal="21" />
       </Target>
     </Instance>
   </Class>
   <Class Class="#11=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects.PerformanceCounterAspect">
-    <Instance Declaration="#3" Id="d7bab03029f14aeb">
+    <Instance Declaration="#3" Id="d7bab030765e59f0">
       <Target LinesAvoided="4">
         <JoinPoint Advising="#11" Description="#12=Wrapped by advice(s) OnEntry, OnExit" Ordinal="4" />
       </Target>
     </Instance>
   </Class>
   <Class Class="#13=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect">
-    <Instance Declaration="#5" Id="d7bab030e04a7730">
+    <Instance Declaration="#5" Id="d7bab0302d0e2bdf">
       <Target LinesAvoided="2">
         <JoinPoint Advising="#13" Description="#4" Ordinal="0" />
       </Target>
     </Instance>
-    <Instance Declaration="#6" Id="d7bab030c747d66f">
+    <Instance Declaration="#6" Id="d7bab030001ffdef">
       <Target LinesAvoided="2">
-        <JoinPoint Advising="#13" Description="#4" Ordinal="11" />
+        <JoinPoint Advising="#13" Description="#4" Ordinal="12" />
       </Target>
     </Instance>
-    <Instance Declaration="#7" Id="d7bab030e69b9ba8">
+    <Instance Declaration="#7" Id="d7bab030ce5bc05c">
       <Target LinesAvoided="2">
-        <JoinPoint Advising="#13" Description="#4" Ordinal="13" />
+        <JoinPoint Advising="#13" Description="#4" Ordinal="14" />
       </Target>
     </Instance>
   </Class>
   <Class Class="#14=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheRemoveAspect">
-    <Instance Declaration="#5" Id="d7bab030e3fd1888">
+    <Instance Declaration="#5" Id="d7bab030cbd89f28">
       <Target LinesAvoided="2">
         <JoinPoint Advising="#14" Description="#15=Wrapped by advice(s) OnException" />
       </Target>
     </Instance>
   </Class>
-  <Class Class="#16=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect">
-    <Instance Declaration="#7" Id="d7bab0306881f8e3">
-      <Target LinesAvoided="6">
-        <JoinPoint Advising="#16" Description="#17=Wrapped by advice(s) OnEntry, OnSuccess, OnExit" Ordinal="14" />
-      </Target>
-    </Instance>
-  </Class>
-  <Class Class="#18=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheAspect">
-    <Instance Declaration="#3" Id="d7bab0305f0a31f8">
+  <Class Class="#16=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.AuthorizationAspects.SecuredOperation">
+    <Instance Declaration="#3" Id="d7bab030b610a619">
       <Target LinesAvoided="2">
-        <JoinPoint Advising="#18" Description="#19=Intercepted by OnInvoke" Ordinal="5" />
+        <JoinPoint Advising="#16" Description="#4" Ordinal="5" />
       </Target>
     </Instance>
   </Class>
-  <Annotation Target="#20=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21=2" Description="#22=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#23=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#24=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheRemoveAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#25=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects.PerformanceCounterAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#26=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects.PerformanceCounterAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#27=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#28=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#29=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#21" Description="#22" />
-  <Annotation Target="#30=M:[PostSharp]PostSharp.Aspects.IMethodInterceptionAspect::OnInvoke([PostSharp]PostSharp.Aspects.MethodInterceptionArgs)" Arguments="#21" Description="#22" />
+  <Class Class="#17=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect">
+    <Instance Declaration="#7" Id="d7bab0307f885c59">
+      <Target LinesAvoided="6">
+        <JoinPoint Advising="#17" Description="#18=Wrapped by advice(s) OnEntry, OnSuccess, OnExit" Ordinal="15" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#19=T:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheAspect">
+    <Instance Declaration="#3" Id="d7bab0307e98dc7c">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#20=Intercepted by OnInvoke" Ordinal="6" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#21=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22=2" Description="#23=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#24=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#25=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.CacheAspects.CacheRemoveAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#26=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects.PerformanceCounterAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#27=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.PerformanceAspects.PerformanceCounterAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#28=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.Pastsharp.AuthorizationAspects.SecuredOperation::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#29=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#30=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#31=M:[EjderyaFramework.Core]EjderyaFramework.Core.Aspects.TransactionAspects.TransactionScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
+  <Annotation Target="#32=M:[PostSharp]PostSharp.Aspects.IMethodInterceptionAspect::OnInvoke([PostSharp]PostSharp.Aspects.MethodInterceptionArgs)" Arguments="#22" Description="#23" />
 </Symbols>

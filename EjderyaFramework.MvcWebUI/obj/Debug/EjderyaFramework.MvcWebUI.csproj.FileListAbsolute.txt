@@ -180,3 +180,5 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcW
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI\bin\Newtonsoft.Json.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI\bin\AutoMapper.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI\bin\AutoMapper.xml

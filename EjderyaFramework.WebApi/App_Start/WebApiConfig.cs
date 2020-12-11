@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EjderyaFramework.WebApi.MessageHandlers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -10,7 +11,7 @@ namespace EjderyaFramework.WebApi
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            config.MessageHandlers.Add(new AuthenticationHandler());
             // Web API routes
             config.MapHttpAttributeRoutes();
 

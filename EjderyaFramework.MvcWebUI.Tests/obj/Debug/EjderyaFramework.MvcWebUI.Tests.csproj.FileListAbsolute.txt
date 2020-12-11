@@ -90,3 +90,5 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcW
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI.Tests\bin\Debug\log4net.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI.Tests\bin\Debug\AutoMapper.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.MvcWebUI.Tests\bin\Debug\AutoMapper.xml
