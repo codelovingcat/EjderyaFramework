@@ -25,12 +25,19 @@ namespace EjderyaFramework.Business.Concrete.Manager
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
+        private IProductDal @object;
         private readonly IMapper _mapper;
         public ProductManager(IProductDal productDal, IMapper mapper)
         {
             _productDal = productDal;
             _mapper = mapper;
         }
+
+        public ProductManager(IProductDal @object)
+        {
+            this.@object = @object;
+        }
+
         [FluentValidationAspect(typeof(ProductValidatior))]
         [CacheRemoveAspect(typeof(MemoryCacheManager))]
         public Product Add(Product product)
@@ -40,7 +47,7 @@ namespace EjderyaFramework.Business.Concrete.Manager
 
         [CacheAspect(typeof(MemoryCacheManager))]
         [PerformanceCounterAspect(2)]
-        [SecuredOperation(Roles = "Admin,Editor,Student")]
+       // [SecuredOperation(Roles = "Admin,Editor,Student")]
         public List<Product> GetAll()
         {
             //Thread.Sleep(3000);

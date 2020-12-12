@@ -44,6 +44,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EjderyaFramework.Wcf.Servic
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjderyaFramework.MvcAngularUI", "EjderyaFramework.MvcAngularUI\EjderyaFramework.MvcAngularUI.csproj", "{EEDB60F2-8F2E-4A48-A36D-FB4711C59EAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,6 +92,10 @@ Global
 		{B378A3A8-10B8-4FFD-853D-E9D326E812EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B378A3A8-10B8-4FFD-853D-E9D326E812EA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B378A3A8-10B8-4FFD-853D-E9D326E812EA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EEDB60F2-8F2E-4A48-A36D-FB4711C59EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDB60F2-8F2E-4A48-A36D-FB4711C59EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDB60F2-8F2E-4A48-A36D-FB4711C59EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDB60F2-8F2E-4A48-A36D-FB4711C59EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

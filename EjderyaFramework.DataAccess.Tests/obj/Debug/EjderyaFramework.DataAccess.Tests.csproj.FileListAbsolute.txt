@@ -73,3 +73,5 @@ C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.Data
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\System.Web.Razor.xml
 C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\AutoMapper.dll
+C:\Users\urems\source\repos\codelovingcat\EjderyaFramework\EjderyaFramework.DataAccess.Tests\bin\Debug\AutoMapper.xml

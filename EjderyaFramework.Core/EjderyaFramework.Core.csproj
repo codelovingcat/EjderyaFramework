@@ -141,6 +141,7 @@
     <Compile Include="Entities\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CrossCuttingConcerns\Validation\FluentValidation\ValidatorTool.cs" />
+    <Compile Include="Utilities\Common\WcfProxy.cs" />
     <Compile Include="Utilities\Mappings\AutoMapperHelper.cs" />
     <Compile Include="Utilities\Mvc\Infrastructure\NinjectControllerFactory.cs" />
   </ItemGroup>

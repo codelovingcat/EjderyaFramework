@@ -26,7 +26,7 @@ namespace EjderyaFramework.WebApi.MessageHandlers
                     string decodedString = Encoding.UTF8.GetString(data);
                     string[] tokenValues = decodedString.Split(':');
 
-                    IUserService userService = InstanceFactory.GetIstance<IUserService>();
+                    IUserService userService = InstanceFactory.GetInstance<IUserService>();
 
                     /// <summary>
                     /// if (tokenValues[0]== "urem" && tokenValues[1]== "12345")
