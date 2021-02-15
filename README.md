@@ -10,3 +10,5 @@
 ### 🔭 .Net Framework 4.5 ile N Layer katmanlı mimariyle ve best practice düşünülerek SOLID e ve  OOP a uygun  olarak geliştirilmeye devam ediliyor.
 
 ![dragon-animated-gif-60](https://user-images.githubusercontent.com/36550960/107993907-3a85b580-6fe4-11eb-9ffb-8544b5948278.gif)
+
+### Yakında daha iyi olacağım... 🚀 👨🏾‍🚀
