@@ -17,3 +17,7 @@
 ![dragon-animated-gif-60](https://user-images.githubusercontent.com/36550960/107993907-3a85b580-6fe4-11eb-9ffb-8544b5948278.gif)
 
 ### Yakında daha iyi olacağım... 🚀 👨🏾‍🚀
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36550960/108242951-34174b00-7156-11eb-8d08-851cb10ff56c.gif?raw=true"  width="400" height="400  image"/> 
+</p>
