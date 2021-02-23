@@ -1,8 +1,8 @@
  # EjderyaFramework ![image](https://img.shields.io/github/stars/codelovingcat/EjderyaFramework) ![image](https://img.shields.io/github/forks/codelovingcat/EjderyaFramework) ![image](https://img.shields.io/github/issues/codelovingcat/EjderyaFramework) ![image](https://user-images.githubusercontent.com/36550960/108841454-73271f80-75e0-11eb-95f2-f57b281c1568.png)
-
+ 
+ 
 <p align="center">   
-
-  <img src="https://user-images.githubusercontent.com/36550960/108236087-2ca07380-714f-11eb-823e-ad114b61026c.gif?raw=true"  width="400" height="400 alt="Sublime's custom image"/> 
+<img src="https://user-images.githubusercontent.com/36550960/108236087-2ca07380-714f-11eb-823e-ad114b61026c.gif?raw=true"  width="400" height="400 alt="Sublime's custom image"/> 
 </p>
 
 ## 🌱 C#, .Net Mvc, Wcf Service, Unit Tests, NLayers, EntityFramework, Nhibernate ORM
